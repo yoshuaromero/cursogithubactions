@@ -9,12 +9,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Asegúrate de que sea la versión más reciente
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3  # Actualiza a la versión más reciente
         with:
-          node-version: '14'  # Especifica la versión de Node.js que necesitas
+          node-version: '20'  # Especifica la versión de Node.js que deseas usar
 
       - name: Run Hola Mundo
         run: node hola_mundo.js
