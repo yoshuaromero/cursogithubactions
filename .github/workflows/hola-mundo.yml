@@ -4,5 +4,5 @@ jobs:
   hola-mundo:
     runs-on: ubuntu-latest
     steps:
-      - name: Hola mundo
-        run: node hola_mundo.js
+      - name: hola_mundo
+        run: node ./hola_mundo.js
