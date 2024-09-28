@@ -1,0 +1,8 @@
+name: hola_mundo
+on: [push]
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hola mundo
+        run: node hola_mundo.js
